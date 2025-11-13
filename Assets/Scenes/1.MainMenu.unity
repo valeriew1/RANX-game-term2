@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 129943016}
   - component: {fileID: 129943015}
   - component: {fileID: 129943014}
+  - component: {fileID: 129943017}
   m_Layer: 5
   m_Name: MathButton
   m_TagString: Untagged
@@ -240,6 +241,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129943012}
   m_CullTransparentMesh: 1
+--- !u!114 &129943017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129943012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b581285689e314348878bf8678dc8531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ToMathButtonScript
+  ToMathButton: {fileID: 129943014}
 --- !u!1 &317988178
 GameObject:
   m_ObjectHideFlags: 0
